@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <div id="siteHeader"></div>
+    <main class="container page-layout">
+      <section class="card">
+        <h2>Contact Us</h2>
+        <form id="contactForm" class="form-grid">
+          <label>Name <input name="name" required /></label>
+          <label>Phone <input name="phone" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>Message <textarea name="message" rows="4" required></textarea></label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+      <section class="card contact-info-card">
+        <h2>Contact Information</h2>
+        <p><strong>Phone:</strong> +92 (21) 6823594</p>
+        <p><strong>Email:</strong> info@surticattle.com</p>
+        <p><strong>Address:</strong> Main Super Highway M9, Karachi.</p>
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://wa.me/92216823594" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </section>
+      <section class="card full-width">
+        <h2>Find Us on Map</h2>
+        <div class="map-wrap">
+          <iframe
+            title="Farm Location Map"
+            src="https://www.google.com/maps?q=Main+Super+Highway+M9+Karachi&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="card full-width">
+        <h2>Submitted Contact Messages</h2>
+        <div id="contactEntries" class="entry-list"></div>
+      </section>
+    </main>
+    <div id="siteFooter"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

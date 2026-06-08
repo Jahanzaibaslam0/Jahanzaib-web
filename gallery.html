@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="gallery">
+    <div id="siteHeader"></div>
+    <main class="container gallery-page">
+      <section class="card full-width">
+        <h2>Gallery</h2>
+        <p class="muted">Visit dedicated pages or view latest uploads below.</p>
+        <div class="media-links">
+          <a class="media-link-card" href="images.html"><h3>Images</h3><p>Browse image gallery</p></a>
+          <a class="media-link-card" href="videos.html"><h3>Videos</h3><p>Browse video gallery</p></a>
+          <a class="media-link-card" href="preferences.html"><h3>Manage Gallery</h3><p>Upload/remove media</p></a>
+        </div>
+      </section>
+      <section class="card full-width">
+        <h2>Latest Images</h2>
+        <div id="galleryImagesPreview" class="media-grid image-grid"></div>
+      </section>
+      <section class="card full-width">
+        <h2>Latest Videos</h2>
+        <div id="galleryVideosPreview" class="media-grid video-grid"></div>
+      </section>
+    </main>
+    <div id="siteFooter"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

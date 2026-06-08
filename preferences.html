@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Preferences</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="preferences">
+    <div id="siteHeader"></div>
+    <main class="container page-layout">
+      <section class="card">
+        <h2>Upload Media</h2>
+        <form id="galleryItemForm" class="form-grid">
+          <label>Media Type
+            <select name="type" required><option value="">Select</option><option value="image">Image</option><option value="video">Video</option></select>
+          </label>
+          <label>Category
+            <select name="category" required><option value="">Select</option><option>Cow</option><option>Buffalo</option><option>Goat</option><option>Sheep</option><option>Horse</option><option>General</option></select>
+          </label>
+          <label>Title <input name="title" required /></label>
+          <label>Upload File <input type="file" name="file" accept="image/*,video/*" required /></label>
+          <p id="galleryFormStatus" class="muted"></p>
+          <button class="btn" type="submit">Upload</button>
+        </form>
+      </section>
+      <section class="card full-width">
+        <h2>Library</h2>
+        <div id="galleryManageList" class="entry-list"></div>
+      </section>
+    </main>
+    <div id="siteFooter"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

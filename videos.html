@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="videos">
+    <div id="siteHeader"></div>
+    <main class="container gallery-page">
+      <section class="card full-width">
+        <h2>Videos Gallery</h2>
+        <div class="filter-row">
+          <label for="videosCategoryFilter">Category</label>
+          <select id="videosCategoryFilter">
+            <option value="All">All</option><option value="Cow">Cow</option><option value="Buffalo">Buffalo</option>
+            <option value="Goat">Goat</option><option value="Sheep">Sheep</option><option value="Horse">Horse</option><option value="General">General</option>
+          </select>
+        </div>
+        <div id="videosGrid" class="media-grid video-grid"></div>
+      </section>
+    </main>
+    <div id="siteFooter"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

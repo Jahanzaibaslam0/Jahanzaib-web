@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inquiry</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="inquiry">
+    <div id="siteHeader"></div>
+    <main class="container page-layout">
+      <section class="card">
+        <h2>Inquiry Form</h2>
+        <form id="inquiryForm" class="form-grid">
+          <label>Name <input name="name" required /></label>
+          <label>Phone <input name="phone" required /></label>
+          <label>Interested In
+            <select name="interest" required>
+              <option value="">Select</option>
+              <option value="Cow">Cow</option><option value="Buffalo">Buffalo</option>
+              <option value="Goat">Goat</option><option value="Sheep">Sheep</option>
+              <option value="Horse">Horse</option><option value="Breeding Service">Breeding Service</option>
+            </select>
+          </label>
+          <label>Budget (PKR) <input name="budget" type="number" min="0" step="1000" /></label>
+          <label>Message <textarea name="message" rows="4" required></textarea></label>
+          <button class="btn" type="submit">Submit Inquiry</button>
+        </form>
+      </section>
+      <section class="card contact-info-card">
+        <h2>Contact & Social</h2>
+        <p><strong>Phone:</strong> +92 (21) 6823594</p>
+        <p><strong>Email:</strong> info@surticattle.com</p>
+        <p><strong>Address:</strong> Main Super Highway M9, Karachi.</p>
+        <h3>Social Pages</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://wa.me/92216823594" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </section>
+      <section class="card full-width">
+        <h2>Farm Location Map</h2>
+        <div class="map-wrap">
+          <iframe
+            title="Farm Location Map"
+            src="https://www.google.com/maps?q=Main+Super+Highway+M9+Karachi&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="card full-width">
+        <h2>Submitted Inquiries</h2>
+        <div id="inquiryEntries" class="entry-list"></div>
+      </section>
+    </main>
+    <div id="siteFooter"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
