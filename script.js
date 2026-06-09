@@ -134,13 +134,13 @@ function renderLayout() {
           <h3>Get In Touch</h3>
           <p>&#128222; &nbsp;+92 310 2087472</p>
           <p>&#9993; &nbsp;info@zilhajjcattlefarm.com</p>
-          <p>&#128205; &nbsp;Main Super Highway M9, Karachi.</p>
+          <p>&#128205; &nbsp;ZillHajj Cattle Farm Near Abdullah Hotel, FarmHouses Area, Gadab, Karachi.</p>
         </section>
         <section class="footer-block">
           <h3>Follow the Farm</h3>
           <div class="social-links footer-social-links">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">&#128337; Facebook</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">&#127774; Instagram</a>
+            <a href="https://www.facebook.com/share/17ihyXCZZD/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">&#128337; Facebook</a>
+            <a href="https://www.tiktok.com/@zillhajjcattlefarm?_r=1&_t=ZS-972newqKjEQ" target="_blank" rel="noopener noreferrer">&#127774; TikTok</a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">&#9654; YouTube</a>
             <a href="https://wa.me/923102087472" target="_blank" rel="noopener noreferrer">&#128172; WhatsApp</a>
           </div>
@@ -150,7 +150,7 @@ function renderLayout() {
           <div class="footer-map-wrap">
             <iframe
               title="Farm Footer Map"
-              src="https://www.google.com/maps?q=Main+Super+Highway+M9+Karachi&output=embed"
+              src="https://www.google.com/maps?q=Abdullah+Hotel+FarmHouses+Area+Gadab+Karachi&output=embed"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
