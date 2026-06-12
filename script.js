@@ -133,7 +133,7 @@ function renderLayout() {
         <section class="footer-block">
           <h3>Get In Touch</h3>
           <p>&#128222; &nbsp;+92 310 2087472</p>
-          <p>&#9993; &nbsp;info@zilhajjcattlefarm.com</p>
+          <p>&#9993; &nbsp;zillhajjcattlefarm@gmail.com</p>
           <p>&#128205; &nbsp;ZillHajj Cattle Farm Near Abdullah Hotel, FarmHouses Area, Gadab, Karachi.</p>
         </section>
         <section class="footer-block">
@@ -150,9 +150,9 @@ function renderLayout() {
           <div class="footer-map-wrap">
             <iframe
               title="Farm Footer Map"
-              src="https://www.google.com/maps?q=Abdullah+Hotel+FarmHouses+Area+Gadab+Karachi&output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.374919511999!2d67.1443281!3d25.123012499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34516b5cd8579%3A0x9cc1c23a57d35ee1!2s44FV%2B6P4%2C%20Muhammad%20Saleh%20Goth%201%20Gadap%20Town%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1781064595094!5m2!1sen!2s" style="border:0;" label="Zillhajj Cattle Farm" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </section>
